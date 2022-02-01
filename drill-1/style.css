@@ -1,0 +1,30 @@
+section {
+  height: 80vh;
+}
+#top {
+  background-color: black;
+  height: 10vh;
+  display: block;
+}
+#side1 {
+  background-color: rgb(172, 167, 167);
+  height: 80vh;
+  width: 10vh;
+  margin-left: 0px;
+  align-self: flex-start;
+}
+#side2 {
+  background-color: gray;
+  height: 80vh;
+  width: 10vh;
+  justify-self: flex-end;
+}
+#bottom {
+  background-color: black;
+  height: 50px;
+  width: 80vh;
+  align-self: flex-end
+}
+.wrapper{
+    display: flex;
+}
