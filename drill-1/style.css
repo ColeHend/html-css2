@@ -1,3 +1,7 @@
+.inline{
+  display: inline-block;
+  margin: 0px;
+}
 section {
   height: 80vh;
 }
@@ -9,22 +13,21 @@ section {
 #side1 {
   background-color: rgb(172, 167, 167);
   height: 80vh;
-  width: 10vh;
+  width: 10%;
   margin-left: 0px;
+  padding: 0px;
   align-self: flex-start;
 }
 #side2 {
-  background-color: gray;
+  background-color: rgb(172, 167, 167);
   height: 80vh;
-  width: 10vh;
-  justify-self: flex-end;
+  width: 10%;
+  float: right;
+  align-self: flex-end;
 }
 #bottom {
   background-color: black;
   height: 50px;
-  width: 80vh;
+  width: 79.5%;
   align-self: flex-end
-}
-.wrapper{
-    display: flex;
 }
